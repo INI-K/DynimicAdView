@@ -11,13 +11,21 @@ import com.inik.dynamicadview.domain.entity.ContentType
 object AdPresets {
 
     /**
-     * 기본 프리셋: 이미지-동영상-이미지
+     * 기본 프리셋: 이미지슬라이더-동영상-이미지슬라이더
      */
     val DEFAULT = AdContent(
         topSection = AdSection(
-            contentType = ContentType.IMAGE,
-            contentUrl = "https://picsum.photos/seed/default_top/1024/760",
-            weight = 1f
+            contentType = ContentType.IMAGE_SLIDER,
+            contentUrl = "",
+            imageUrls = listOf(
+                "https://picsum.photos/seed/slider1/1024/760",
+                "https://picsum.photos/seed/slider2/1024/760",
+                "https://picsum.photos/seed/slider3/1024/760",
+                "https://picsum.photos/seed/slider4/1024/760",
+                "https://picsum.photos/seed/slider5/1024/760"
+            ),
+            weight = 1f,
+            sliderDelayMs = 1000L // 상단: 1초
         ),
         middleSection = AdSection(
             contentType = ContentType.VIDEO,
@@ -25,9 +33,17 @@ object AdPresets {
             weight = 1f
         ),
         bottomSection = AdSection(
-            contentType = ContentType.IMAGE,
-            contentUrl = "https://picsum.photos/seed/default_bottom/1024/760",
-            weight = 1f
+            contentType = ContentType.IMAGE_SLIDER,
+            contentUrl = "",
+            imageUrls = listOf(
+                "https://picsum.photos/seed/bottom1/1024/760",
+                "https://picsum.photos/seed/bottom2/1024/760",
+                "https://picsum.photos/seed/bottom3/1024/760",
+                "https://picsum.photos/seed/bottom4/1024/760",
+                "https://picsum.photos/seed/bottom5/1024/760"
+            ),
+            weight = 1f,
+            sliderDelayMs = 1200L // 하단: 1.2초
         )
     )
 

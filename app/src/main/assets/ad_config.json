@@ -1,0 +1,52 @@
+{
+  "adId": "campaign_001",
+  "topSection": {
+    "type": "IMAGE_SLIDER",
+    "url": "",
+    "imageUrls": [
+      "https://picsum.photos/seed/slider1/204/160",
+      "https://picsum.photos/seed/slider2/524/260",
+      "https://picsum.photos/seed/slider3/624/360",
+      "https://picsum.photos/seed/slider4/824/460",
+      "https://picsum.photos/seed/slider5/724/560",
+      "https://picsum.photos/seed/slider6/204/160",
+      "https://picsum.photos/seed/slider7/524/260",
+      "https://picsum.photos/seed/slider8/624/360",
+      "https://picsum.photos/seed/slider9/824/460",
+      "https://picsum.photos/seed/slider10/724/560"
+    ],
+    "sliderDelayMs": 1000
+  },
+  "middleSection": {
+    "type": "VIDEO",
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "imageUrls": [],
+    "sliderDelayMs": 1000
+  },
+  "bottomSection": {
+    "type": "IMAGE_SLIDER",
+    "url": "",
+    "imageUrls": [
+      "https://picsum.photos/seed/bottom1/500/760",
+      "https://picsum.photos/seed/bottom2/214/760",
+      "https://picsum.photos/seed/bottom3/409/760",
+      "https://picsum.photos/seed/bottom4/2221/760",
+      "https://picsum.photos/seed/bottom5/1314/760",
+      "https://picsum.photos/seed/bottom6/500/760",
+      "https://picsum.photos/seed/bottom7/214/760",
+      "https://picsum.photos/seed/bottom8/409/760",
+      "https://picsum.photos/seed/bottom9/2221/760",
+      "https://picsum.photos/seed/bottom10/1314/760"
+    ],
+    "sliderDelayMs": 1200
+  },
+  "initialWeights": {
+    "top": 1.0,
+    "middle": 1.0,
+    "bottom": 1.0
+  },
+  "enableUserResize": true,
+  "minWeight": 0.1,
+  "maxWeight": 5.0,
+  "autoSave": true
+}

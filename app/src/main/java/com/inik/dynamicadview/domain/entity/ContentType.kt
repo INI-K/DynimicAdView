@@ -12,5 +12,8 @@ enum class ContentType {
     VIDEO,
 
     /** 빈 영역 (배경색만) */
-    EMPTY
+    EMPTY,
+
+    /** 이미지 슬라이드쇼 */
+    IMAGE_SLIDER
 }
